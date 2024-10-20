@@ -21,7 +21,7 @@ const NewsFeed = ({ navigation }) => {
     <View style={styles.container}>
       {!loading ? (
         <View>
-          <Text style={styles.text}>Top Headlines - India </Text>
+          <Text style={styles.text}>Top Headlines - Viet Nam</Text>
           <FlatList
             onRefresh={() => getResult()}
             refreshing={refresh}

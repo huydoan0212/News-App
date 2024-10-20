@@ -1,7 +1,5 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
-import NewsFeed from "../component/NewsFeed";
-import SearchNews from "../component/SearchNews";
 import { FontAwesome, MaterialCommunityIcons } from "@expo/vector-icons";
 import { myTheme } from "./navigationColor";
 import MyStack from "./NewsInfoNavigator";

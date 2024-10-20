@@ -6,29 +6,25 @@ const About = () => {
   return (
     <View style={styles.container}>
       <Image style={styles.image} source={require("../assets/photo.jpg")} />
-      <Text style={styles.text}>Saber Basha</Text>
+      <Text style={styles.text}>Doan Quoc Huy</Text>
       <Text style={styles.info}>
-        Hello I am Saber Basha, Currently pursuing B.tech in Information
-        Technlogy at Madras Institute of Technology. Skilled in MERN Stack
-        development and React Native. Want to collabarate with me?? Feel free to
-        contact!
       </Text>
       <View style={styles.icons}>
         <Icon
           backgroundColor="#ff4d4d"
-          onPress={() => Linking.openURL("mailto:saberbasha752002@gmail.com")}
+          onPress={() => Linking.openURL("mailto:doanquochuy02122003@gmail.com")}
           name={"email"}
           size={50}
         />
         <Icon
-          onPress={() => Linking.openURL("https://github.com/zero7zero5")}
+          onPress={() => Linking.openURL("https://github.com/huydoan0212")}
           backgroundColor="#ff4d4d"
           name={"github"}
           size={50}
         />
         <Icon
           onPress={() =>
-            Linking.openURL("https://www.linkedin.com/in/saber-basha-s/")
+            Linking.openURL("www.linkedin.com/in/đoàn-huy-799b7b332")
           }
           backgroundColor="#ff4d4d"
           name={"linkedin"}
